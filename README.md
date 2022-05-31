@@ -1,5 +1,7 @@
 # Bash Slides
 
+> Forked from https://github.com/skontar/bash-slides
+
 This is a simple script written in Bash for slide presentations in terminal.
 
 It is inspired by https://github.com/fxn/tkn.

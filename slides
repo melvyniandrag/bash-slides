@@ -4,8 +4,9 @@
 # License: MIT
 #
 # Inspired by https://github.com/fxn/tkn
+#
 
-CODE_STYLE="breeze"
+CODE_STYLE="night"
 SECTION_DECORATION=" ❧❦☙ "
 LEN_DECORATION="${#SECTION_DECORATION}"
 
@@ -152,9 +153,42 @@ show_slide() {
         done
         filler=$(( (columns - longest + 1) / 2 ))  # Add 1 to round up
 
+        code=text
+        code_lines=()
+        is_code=false
+        code_start_regex='^<code (.*)>'
+        code_stop_regex='^</code>.*'
         for (( i = start; i < start + length; i++ )); do
-            printf "%${filler}s" " "
-            echo -e "${slide_formatted_lines[i]}"
+            if [ "$is_code" = true ]; then
+              if [[ ${slide_formatted_lines[i]} =~ $code_stop_regex ]]; then
+                code_lines_length=${#code_lines[@]}
+                text=$( for (( j = 0; j<code_lines_length; j++  )); do echo -e "${code_lines[j]}"; done )
+
+                formatted_text=$( highlight -S "$code" -s "$CODE_STYLE" -O xterm256 <<< "$text" )
+                readarray -t formatted_lines <<< "$formatted_text"
+
+                formatted_lines_length=${#formatted_lines[@]}
+                for ((j = 0; j<formatted_lines_length; j++)); do
+                  line_number=$((${j}+1))
+                  printf "%${filler}s" " "
+                  printf "$( tput setaf 243 ) %02d │ $( tput sgr0 )" "${line_number}"
+                  echo -e "${formatted_lines[j]}"
+                done
+
+                is_code=false
+                code_lines=()
+              else
+                code_lines+="${slide_formatted_lines[i]}\n"
+              fi
+
+            elif [[ ${slide_formatted_lines[i]} =~ $code_start_regex ]]; then
+              code=${BASH_REMATCH[1]}
+              is_code=true
+            else
+              printf "%${filler}s" " "
+              echo -e "${slide_formatted_lines[i]}"
+            fi
+            
         done
 
     # Code slide type
@@ -179,7 +213,9 @@ show_slide() {
         filler=$(( (columns - longest + 1) / 2 ))  # Add 1 to round up
 
         for (( i = 0; i < length; i++ )); do
+            line_number=$((${i}+1))
             printf "%${filler}s" " "
+            printf "$( tput setaf 243 ) %02d │ $( tput sgr0 )" "${line_number}"
             echo -e "${formatted_lines[i]}"
         done
 

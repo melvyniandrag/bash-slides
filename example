@@ -39,6 +39,7 @@ Supported slide styles are:
 
 code bash ==============================================================
 # Uses `highlight` for code highlighting
+# See https://github.com/andre-simon/highlight
 
 for (( i = 0; i < nr_lines; i++ )); do
     for (( j = 0; j < filler; j++ )); do
@@ -46,6 +47,16 @@ for (( i = 0; i < nr_lines; i++ )); do
     done
     echo -e "${lines[i]}"
 done
+
+block ==================================================================
+Added support for code blocks with highlighting and line numbers
+See https://github.com/andre-simon/highlight
+
+<code java>
+public static void main(String args[]) {
+  System.out.println("Hello World!");
+}
+</code>
 
 block ==================================================================
 Very easy to control:
