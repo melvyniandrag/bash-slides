@@ -1,0 +1,90 @@
+center =================================================================
+
+ _______ __               _____   __                         _______ __           __ __ 
+|_     _|  |--.-----.    |     |_|__|.-----.--.--.--.--.    |     __|  |--.-----.|  |  |
+  |   | |     |  -__|    |       |  ||     |  |  |_   _|    |__     |     |  -__||  |  |
+  |___| |__|__|_____|    |_______|__||__|__|_____|__.__|    |_______|__|__|_____||__|__|
+
+<b>Melvyn Drag<r>
+
+The Linux Workbook @ Udemy
+
+center =================================================================
+<u>What is a shell? <r>
+
+There are different ways to define it. Here is a solid
+beginner-level definition:
+
+A shell is an interactive programming language
+that you generally use to run and connect other
+programs on your Unix computer.
+
+block =================================================================
+<u>What is a shell? (continued)<r>
+
+In the last lecture you learned a little about using the shell. 
+
+You used your shell to invoke <i>other<r> programs on your computer.
+Programs such as:
+
+• <R>mv<r>
+• <G>cp<r> 
+• <Y>wget<r> 
+• <E>sha256sum<r>
+• <B>etc.<r>
+
+center =================================================================
+<u>A little more about shells<r>
+
+A shell is NOT generally used for "writing software".
+
+Use C++, Java, Javascript, Rust, Kotlin, etc. for writing software.
+
+
+block =================================================================
+There are different kinds of shells, but they are generally
+quite similar to each other. Here are some shells:
+
+• <R>Bash<r>
+• <G>Dash<r> 
+• <Y>Fish<r> 
+• <E>Zsh<r>
+• <B>. . . and more . . .<r>
+
+Debian 11 uses Dash by default.
+
+block ==================================================================
+
+     ╔══════════════════════════════════╗
+     ║           <u>TODAY'S PLAN<r>           ║
+     ╠═════════════════╦════════════════╣
+     ║       <G>pipes<r>     ║ for connecting ║
+     ║                 ║ programs       ║
+     ║                 ║ together       ║
+     ╠═════════════════╬════════════════╣
+     ║      <R> i/o <r>      ║ Manipulating   ║
+     ║      <R>redirects<r>  ║ input / output ║
+     ║                 ║ to/from your   ║
+     ║                 ║ programs       ║
+     ╚═════════════════╩════════════════╝
+
+
+
+block ==================================================================
+
+ ________________________________________
+/ stick around til the end for fun bonus \
+\ content!                               /
+ ----------------------------------------
+       \    ____
+        \  /    \
+          | ^__^ |
+          | (oo) |______
+          | (__) |      )\/\
+           \____/|----w |
+                ||     ||
+
+                 Moofasa
+
+
+section ================================================================

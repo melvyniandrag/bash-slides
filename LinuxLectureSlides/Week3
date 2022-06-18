@@ -1,0 +1,99 @@
+center =================================================================
+___________              __    ___________    .___.__  __                       
+\__    ___/___ ___  ____/  |_  \_   _____/  __| _/|__|/  |_  ___________  ______
+  |    |_/ __ \\  \/  /\   __\  |    __)_  / __ | |  \   __\/  _ \_  __ \/  ___/
+  |    |\  ___/ >    <  |  |    |        \/ /_/ | |  ||  | (  <_> )  | \/\___ \ 
+  |____| \___  >__/\_ \ |__|   /_______  /\____ | |__||__|  \____/|__|  /____  >
+             \/      \/                \/      \/                            \/ 
+<b>Melvyn Drag<r>
+
+The Linux Workbook @ Udemy
+
+center =================================================================
+<u>What is a Text Editor? <r>
+
+A program for editing text files.
+
+center =================================================================
+<u>What is a Text File? <r>
+
+A file that just contains text. Something like a <R>.csv<r> or a
+<V>.txt<r> or a <Y>.json<r>
+center =================================================================
+<u>What is NOT a Text File<r>
+
+<Y>Microsoft Word<r> files are NOT text files. They look like they just
+contain text, but actually they are complex files.
+
+Image files like <B>.png<r> or <G>.jpeg<r> are also not text files.
+
+block =================================================================
+<u>What are some text editors on Linux?<r>
+
+• <R>vim<r>
+• <G>vi<r> 
+• <Y>emacs<r> 
+• <E>joe<r>
+• <B>nano<r>
+• and many more 
+
+
+center =================================================================
+<u>How to use vim?<r>
+
+We don't have time to learn all the text editors. 
+
+I will only teach you vim because it is great and it's everywhere.
+
+block =================================================================
+<u>How to use vim (continued)?<r>
+
+- Vim is <Y>modal<r>.
+- You type stuff in insert mode.
+- You give commands in normal mode.
+
+You cannot click on things like "save as" or "new file" like you do 
+in the editors you know.
+
+You have to give special commands in normal mode.
+
+block =================================================================
+<u>How to use vim (continued)?<r>
+
+- Vim is <Y>modal<r>.
+- When you launch vim you are in <G> normal mode<r>
+- To enter the <R>insert mode<r> type "i".
+- To exit the <R>insert mode <r> type "<esc>".
+- Now you are in <G> normal mode <r>.
+
+... there is more to know but this is enough.
+
+block =================================================================
+<b>How to exit vim?<r>
+
+Type the following when in <G> NoRmAl MOdE <r>
+
+• <R>:wq<r> - save and exit
+• <G>:q<r>  - just exit
+• <Y>:q!<r> - force exit
+• <E>:w<r> - save without exiting
+
+
+block ==================================================================
+
+ ________________________________________
+/ Come back later and learn about vim    \
+\ registers! You'll fall in love.         /
+ ----------------------------------------
+       \    ____
+        \  /    \
+          | ^__^ |
+          | (oo) |______
+          | (__) |      )\/\
+           \____/|----w |
+                ||     ||
+
+                 Moofasa
+
+
+section ================================================================
