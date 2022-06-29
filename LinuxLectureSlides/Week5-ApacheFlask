@@ -1,0 +1,87 @@
+center =================================================================
+
+   _____          __   .__                  __      __      ___.          .__  __                 
+  /     \ _____  |  | _|__| ____    ____   /  \    /  \ ____\_ |__   _____|__|/  |_  ____   ______
+ /  \ /  \\__  \ |  |/ /  |/    \  / ___\  \   \/\/   // __ \| __ \ /  ___/  \   __\/ __ \ /  ___/
+/    Y    \/ __ \|    <|  |   |  \/ /_/  >  \        /\  ___/| \_\ \\___ \|  ||  | \  ___/ \___ \ 
+\____|__  (____  /__|_ \__|___|  /\___  /    \__/\  /  \___  >___  /____  >__||__|  \___  >____  >
+        \/     \/     \/       \//_____/          \/       \/    \/     \/              \/     \/ 
+
+<b>Melvyn Drag<r>
+
+The Linux Workbook @ Udemy
+
+center =================================================================
+
+Todays mission is to make a cute little website that you can show to other people.
+
+Isn't that awesome!?!?
+
+
+block =================================================================
+<u>What are we learning today? <r>
+
+
+• <R>Webserver - linux computer that hosts the website<r>
+• <G>Webserver - software that handles HTTP / HTTPS requests. <r> 
+• <B>Backend Framework - Software that generates content <r> 
+
+And a few other things here and there
+
+block =================================================================
+<u>Webserver (definition #1)<r>
+
+A webserver is just a computer on the internet that hosts a website.
+
+It could run Linux, BSD, Windows, or some other operating system.
+
+But Linux is the best for doing this.
+
+block =================================================================
+<u>Webserver (definition #2)<r>
+
+<b> Webserver <r> can also be used to refer to the software that handles the 
+htttp/https/other requests that come to your computer.
+
+Popular examples are <R> apache <r> and <B> NGINX <r>
+
+block =================================================================
+
+<u> Web framework (backend) <r>
+This is a useful tool to generate the content for your website.
+This is a huge topic. In this class I will introduce you to a backend framework called 
+<b> flask <r>. But there are many of them.
+
+• <R>Spring (Java/Scala)<r>
+• <R>Play (Java/Scala)<r>
+• <G>Django(Python)<r> 
+• <G>Flask(Python)<r> 
+• <B>ASP.NET(C#)<r>
+• <Y>. . . and more . . .<r>
+
+block ==================================================================
+<u> Web framework (frontend) <r>
+A front end web framework deals with the way your website <i> looks <r> in the browser
+when someone goes to your website.
+
+This involves javascript and CSS.
+
+We won't be working on this. If you want to learn more you can learn about things like 
+
+- Bootstrap 
+- React
+- Angular
+- etc.
+
+
+block ==================================================================
+
+At the end of this lecture you will be able to :
+
+Call your Grandma and tell to type your ip address into her Cell phone.
+
+She will be able to see a message on the screen saying:
+
+<i>I love you Grandma!<r>
+
+section ================================================================

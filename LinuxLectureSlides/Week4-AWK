@@ -1,0 +1,84 @@
+center =================================================================
+ ______________
+< What is awk? >
+ --------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
+
+<b>Melvyn Drag<r>
+
+The Linux Workbook @ Udemy
+
+center =================================================================
+<u>What is awk? <r>
+
+- An <b> auk <r> is a small bird that looks similar to a penguin.
+- <b> AWK <r> is an amazing, simple, beautiful programming language.
+- The AWK mascot is an auk.
+
+block =================================================================
+<u>awk is special<r>
+
+awk is for processing text files like .csv, .tsv, etc. that represent tables of data.
+
+• <R>csv<r> - Comma separated values
+• <G>tsv<r> - Tab separated values 
+• <Y>ssv<r>  - space separated values
+• <B>etc.<r>
+
+center =================================================================
+<u>There are many structured text files on your computer. <r>
+
+You will interact with structured text files every day of your Linux career.
+
+Try the following on your linux machine
+
+<i> cat /etc/shadow <r>
+<i> cat /etc/fstab <r>
+
+There are two very popular text files.
+
+
+block =================================================================
+
+
+awk will not replace Java, C++, Python, Rust, etc.
+
+It is not designed for that.
+
+block ==================================================================
+
+
+awk is there to help you quickly extract data from files like /etc/shadow.
+
+block ==================================================================
+
+
+The closest thing to awk that you've ever seen is Excel.
+
+block ==================================================================
+
+ ________________________________________
+/ stick around til the end for fun bonus \
+\ content!                               /
+ ----------------------------------------
+       \    ____
+        \  /    \
+          | ^__^ |
+          | (oo) |______
+          | (__) |      )\/\
+           \____/|----w |
+                ||     ||
+
+                 Moofasa
+
+
+section ================================================================
